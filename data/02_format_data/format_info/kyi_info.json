@@ -1,0 +1,312 @@
+{
+    "基本情報": {
+        "data_name": "競走馬データ",
+        "record_length": 1024
+    },
+    "データ位置": {
+        "レースキー": {
+            "start_bit": 0,
+            "end_bit": 7
+        },
+        "馬番": {
+            "start_bit": 8,
+            "end_bit": 9
+        },
+        "血統登録番号": {
+            "start_bit": 10,
+            "end_bit": 17
+        },
+        "馬名": {
+            "start_bit": 18,
+            "end_bit": 35
+        },
+        "IDM": {
+            "start_bit": 36,
+            "end_bit": 40
+        },
+        "騎手指数": {
+            "start_bit": 41,
+            "end_bit": 45
+        },
+        "情報指数": {
+            "start_bit": 46,
+            "end_bit": 50
+        },
+        "予備1": {
+            "start_bit": 51,
+            "end_bit": 55
+        },
+        "予備2": {
+            "start_bit": 56,
+            "end_bit": 60
+        },
+        "予備3": {
+            "start_bit": 61,
+            "end_bit": 65
+        },
+        "総合指数": {
+            "start_bit": 66,
+            "end_bit": 70
+        },
+        "脚質": {
+            "start_bit": 71,
+            "end_bit": 71
+        },
+        "距離適性": {
+            "start_bit": 72,
+            "end_bit": 72
+        },
+        "上昇度": {
+            "start_bit": 73,
+            "end_bit": 73
+        },
+        "ローテーション": {
+            "start_bit": 74,
+            "end_bit": 76
+        },
+        "基準オッズ": {
+            "start_bit": 77,
+            "end_bit": 81
+        },
+        "基準人気順位": {
+            "start_bit": 82,
+            "end_bit": 83
+        },
+        "基準複勝オッズ": {
+            "start_bit": 84,
+            "end_bit": 88
+        },
+        "基準複勝人気順位": {
+            "start_bit": 89,
+            "end_bit": 90
+        },
+        "特定情報◎": {
+            "start_bit": 91,
+            "end_bit": 93
+        },
+        "特定情報○": {
+            "start_bit": 94,
+            "end_bit": 96
+        },
+        "特定情報▲": {
+            "start_bit": 97,
+            "end_bit": 99
+        },
+        "特定情報△": {
+            "start_bit": 100,
+            "end_bit": 102
+        },
+        "特定情報×": {
+            "start_bit": 103,
+            "end_bit": 105
+        },
+        "総合情報◎": {
+            "start_bit": 106,
+            "end_bit": 108
+        },
+        "総合情報○": {
+            "start_bit": 109,
+            "end_bit": 111
+        },
+        "総合情報▲": {
+            "start_bit": 112,
+            "end_bit": 114
+        },
+        "総合情報△": {
+            "start_bit": 115,
+            "end_bit": 117
+        },
+        "総合情報×": {
+            "start_bit": 118,
+            "end_bit": 120
+        },
+        "人気指数": {
+            "start_bit": 121,
+            "end_bit": 125
+        },
+        "調教指数": {
+            "start_bit": 126,
+            "end_bit": 130
+        },
+        "厩舎指数": {
+            "start_bit": 131,
+            "end_bit": 135
+        },
+        "調教矢印コード": {
+            "start_bit": 136,
+            "end_bit": 136
+        },
+        "厩舎評価コード": {
+            "start_bit": 137,
+            "end_bit": 137
+        },
+        "騎手期待連対率": {
+            "start_bit": 138,
+            "end_bit": 141
+        },
+        "激走指数": {
+            "start_bit": 142,
+            "end_bit": 144
+        },
+        "蹄コード": {
+            "start_bit": 145,
+            "end_bit": 146
+        },
+        "重適正コード": {
+            "start_bit": 147,
+            "end_bit": 147
+        },
+        "クラスコード": {
+            "start_bit": 148,
+            "end_bit": 149
+        },
+        "ブリンカー": {
+            "start_bit": 152,
+            "end_bit": 152
+        },
+        "騎手名": {
+            "start_bit": 153,
+            "end_bit": 158
+        },
+        "負担重量": {
+            "start_bit": 159,
+            "end_bit": 161
+        },
+        "見習い区分": {
+            "start_bit": 162,
+            "end_bit": 162
+        },
+        "調教師名": {
+            "start_bit": 163,
+            "end_bit": 168
+        },
+        "調教師所属": {
+            "start_bit": 169,
+            "end_bit": 170
+        },
+        "他データリンク用キー_前走1競走成績キー": {
+            "start_bit": 171,
+            "end_bit": 186
+        },
+        "他データリンク用キー_前走2競走成績キー": {
+            "start_bit": 187,
+            "end_bit": 202
+        },
+        "他データリンク用キー_前走3競走成績キー": {
+            "start_bit": 203,
+            "end_bit": 218
+        },
+        "他データリンク用キー_前走4競走成績キー": {
+            "start_bit": 219,
+            "end_bit": 234
+        },
+        "他データリンク用キー_前走5競走成績キー": {
+            "start_bit": 235,
+            "end_bit": 250
+        },
+        "枠番": {
+            "start_bit": 291,
+            "end_bit": 291
+        },
+        "印コード_総合印": {
+            "start_bit": 294,
+            "end_bit": 294 
+        },
+        "印コード_ＩＤＭ印": {
+            "start_bit": 295,
+            "end_bit": 295
+        },
+        "印コード_情報印": {
+            "start_bit": 296,
+            "end_bit": 296
+        },
+        "印コード_騎手印": {
+            "start_bit": 297,
+            "end_bit": 297
+        },
+        "印コード_厩舎印": {
+            "start_bit": 298,
+            "end_bit": 298
+        },
+        "印コード_調教印": {
+            "start_bit": 299,
+            "end_bit": 299
+        },
+        "印コード_激走印": {
+            "start_bit": 300,
+            "end_bit": 300
+        },
+        "芝適性コード": {
+            "start_bit": 301,
+            "end_bit": 301
+        },
+        "ダ適性コード": {
+            "start_bit": 302,
+            "end_bit": 302
+        },
+        "騎手コード": {
+            "start_bit": 303,
+            "end_bit": 307
+        },
+        "調教師コード": {
+            "start_bit": 308,
+            "end_bit": 312
+        },
+        "賞金情報_獲得賞金": {
+            "start_bit": 314,
+            "end_bit": 319
+        },
+        "賞金情報_収得賞金": {
+            "start_bit": 320,
+            "end_bit": 324
+        },
+        "賞金情報_条件クラス": {
+            "start_bit": 325,
+            "end_bit": 325
+        },
+        "性別コード": {
+            "start_bit": 371,
+            "end_bit": 371
+        },
+        "馬主名": {
+            "start_bit": 372,
+            "end_bit": 391
+        },
+        "馬主会コード": {
+            "start_bit": 392,
+            "end_bit": 393
+        },
+        "馬記号コード": {
+            "start_bit": 394,
+            "end_bit": 395
+        },
+        "激走順位": {
+            "start_bit": 396,
+            "end_bit": 397
+        },
+        "LS指数順位": {
+            "start_bit": 398,
+            "end_bit": 399
+        },
+        "輸送区分": {
+            "start_bit": 416,
+            "end_bit": 416
+        },
+        "万券指数": {
+            "start_bit": 482,
+            "end_bit": 484
+        },
+        "万券印": {
+            "start_bit": 485,
+            "end_bit": 485
+        },
+        "降級フラグ": {
+            "start_bit": 486,
+            "end_bit": 486
+        },
+        "激走タイプ": {
+            "start_bit": 487,
+            "end_bit": 488
+        }
+    }
+}

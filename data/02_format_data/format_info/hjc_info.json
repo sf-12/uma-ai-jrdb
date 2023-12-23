@@ -1,0 +1,108 @@
+{
+    "基本情報": {
+        "data_name": "払戻情報データ",
+        "record_length": 444
+    },
+    "データ位置": {
+        "レースキー": {
+            "start_bit": 0,
+            "end_bit": 7
+        },
+        "単勝払戻1": {
+            "start_bit": 8,
+            "end_bit": 16
+        },
+        "単勝払戻1_馬番": {
+            "start_bit": 8,
+            "end_bit": 9
+        },
+        "単勝払戻1_払戻金": {
+            "start_bit": 10,
+            "end_bit": 16
+        },
+        "単勝払戻2": {
+            "start_bit": 17,
+            "end_bit": 25
+        },
+        "単勝払戻2_馬番": {
+            "start_bit": 17,
+            "end_bit": 18
+        },
+        "単勝払戻2_払戻金": {
+            "start_bit": 19,
+            "end_bit": 25
+        },
+        "単勝払戻3": {
+            "start_bit": 26,
+            "end_bit": 34
+        },
+        "単勝払戻3_馬番": {
+            "start_bit": 26,
+            "end_bit": 27
+        },
+        "単勝払戻3_払戻金": {
+            "start_bit": 28,
+            "end_bit": 34
+        },
+        "複勝払戻1": {
+            "start_bit": 35,
+            "end_bit": 43
+        },
+        "複勝払戻1_馬番": {
+            "start_bit": 35,
+            "end_bit": 36
+        },
+        "複勝払戻1_払戻金": {
+            "start_bit": 37,
+            "end_bit": 43
+        },
+        "複勝払戻2": {
+            "start_bit": 44,
+            "end_bit": 52
+        },
+        "複勝払戻2_馬番": {
+            "start_bit": 44,
+            "end_bit": 45
+        },
+        "複勝払戻2_払戻金": {
+            "start_bit": 46,
+            "end_bit": 52
+        },
+        "複勝払戻3": {
+            "start_bit": 53,
+            "end_bit": 61
+        },
+        "複勝払戻3_馬番": {
+            "start_bit": 53,
+            "end_bit": 54
+        },
+        "複勝払戻3_払戻金": {
+            "start_bit": 55,
+            "end_bit": 61
+        },
+        "複勝払戻4": {
+            "start_bit": 62,
+            "end_bit": 70
+        },
+        "複勝払戻4_馬番": {
+            "start_bit": 62,
+            "end_bit": 63
+        },
+        "複勝払戻4_払戻金": {
+            "start_bit": 64,
+            "end_bit": 70
+        },
+        "複勝払戻5": {
+            "start_bit": 71,
+            "end_bit": 79
+        },
+        "複勝払戻5_馬番": {
+            "start_bit": 71,
+            "end_bit": 72
+        },
+        "複勝払戻5_払戻金": {
+            "start_bit": 73,
+            "end_bit": 79
+        }
+    }
+}
